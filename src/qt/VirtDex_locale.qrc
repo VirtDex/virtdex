@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/VirtDex_bg.qm</file>
+        <file alias="de">locale/VirtDex_de.qm</file>
+        <file alias="en">locale/VirtDex_en.qm</file>
+        <file alias="es">locale/VirtDex_es.qm</file>
+        <file alias="fi">locale/VirtDex_fi.qm</file>
+        <file alias="fr">locale/VirtDex_fr.qm</file>
+        <file alias="it">locale/VirtDex_it.qm</file>
+        <file alias="ja">locale/VirtDex_ja.qm</file>
+        <file alias="pl">locale/VirtDex_pl.qm</file>
+        <file alias="pt">locale/VirtDex_pt.qm</file>
+        <file alias="ru">locale/VirtDex_ru.qm</file>
+        <file alias="sk">locale/VirtDex_sk.qm</file>
+        <file alias="sv">locale/VirtDex_sv.qm</file>
+        <file alias="vi">locale/VirtDex_vi.qm</file>
+        <file alias="zh_CN">locale/VirtDex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/VirtDex_zh_TW.qm</file>
+    </qresource>
+</RCC>

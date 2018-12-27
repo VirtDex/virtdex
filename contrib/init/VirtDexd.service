@@ -1,0 +1,22 @@
+[Unit]
+Description=VirtDex's distributed currency daemon
+After=network.target
+
+[Service]
+User=VirtDexcore
+Group=VirtDexcore
+
+Type=forking
+PIDFile=/var/lib/VirtDexd/VirtDexd.pid
+ExecStart=/usr/bin/VirtDexd -daemon -pid=/var/lib/VirtDexd/VirtDexd.pid \
+-conf=/etc/VirtDexcore/VirtDex.conf -datadir=/var/lib/VirtDexd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

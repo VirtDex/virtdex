@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VirtDex
+Comment=VirtDex P2P Cryptocurrency
+Comment[fr]=VirtDex, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=VirtDex, eşten eşe kriptografik sanal para birimi
+Exec=VirtDex-qt %u
+Terminal=false
+Type=Application
+Icon=VirtDex128
+MimeType=x-scheme-handler/VirtDex;
+Categories=Office;Finance;
